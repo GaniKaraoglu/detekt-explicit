@@ -1,0 +1,11 @@
+FinBotExplicit:
+  DataClassFunctions:
+    active: true
+  DataClassDefaultValues:
+    active: true
+  DataClassTypedIDs:
+    active: true
+  NoImplicitFunctionReturnType:
+    active: true
+  UnnecessaryPassThroughClass:
+    active: true
