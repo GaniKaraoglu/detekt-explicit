@@ -1,5 +1,5 @@
 plugins {
-    kotlin("jvm") version "1.9.23"
+    kotlin("jvm") version "1.9.24"
     `maven-publish`
 }
 
@@ -8,10 +8,9 @@ version = "0.0.4"
 
 dependencies {
     compileOnly("io.gitlab.arturbosch.detekt:detekt-api:1.23.5")
-
-    testImplementation("io.gitlab.arturbosch.detekt:detekt-test:1.23.5")
-    testImplementation("io.kotest:kotest-assertions-core:5.8.1")
-    testImplementation("org.junit.jupiter:junit-jupiter:5.10.2")
+    testImplementation("io.gitlab.arturbosch.detekt:detekt-test:1.23.7")
+    testImplementation("io.kotest:kotest-assertions-core:5.9.1")
+    testImplementation("org.junit.jupiter:junit-jupiter:5.11.4")
 }
 
 kotlin {
