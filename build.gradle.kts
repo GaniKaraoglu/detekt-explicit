@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "com.github.finbot.explicit"
-version = "0.0.2"
+version = "0.0.4"
 
 dependencies {
     compileOnly("io.gitlab.arturbosch.detekt:detekt-api:1.23.5")
